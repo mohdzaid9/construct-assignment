@@ -1,0 +1,174 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+}
+#top {
+background-color: rgb(167, 85, 243);
+margin-top: 8px; 
+}
+#top > a{
+    margin-left: 5%;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 10px;
+}
+.topnav{
+    margin-left: 60%;
+     margin-top: 10px; 
+}
+.topnav > a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+#searchbar > input{
+    padding: 0px;
+    border-radius: 50px;
+    height: 50px;
+    width: 80%;
+    margin-left: 120px;
+    /* margin-top: -40px; */
+}
+.section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slide input{
+    display: none;
+
+}
+.st{
+    width: 20%;
+    transition: 2s;
+}
+.st img{
+    width: 800px;
+    height: 500px;
+}
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+.m-btn{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.m-btn:not( :last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: aquamarine;
+}
+#radio1:checked ~ :first{
+    margin-left: 0%;
+}
+#radio2:checked ~ :first{
+    margin-left: 20%;
+}
+#radio3:checked ~ :first{
+    margin-left: 40%;
+}
+#radio4:checked ~ :first{
+    margin-left: 60%;
+}
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.nav-auto div{
+    border: 2px solid aqua;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+    background-color: aqua;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+    background-color: aqua;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+    background-color: aqua;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+    background-color: aqua;
+}
+#cards{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 350px);
+        
+}
+#cards > .inside > img{
+    width: 50vh;
+    border-radius: 10px;
+    margin-top: -150px;
+}
+
+}
+       /* This is login page css */
+       img{
+        width: 150px;
+        height:100px;
+        margin-top: 50px;
+    }
+    p{
+        margin-left: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        margin-top: -15px;
+    }
+    h1{
+        text-align: center;
+        font-family: sans-serif;
+    }
+    #email > input{
+       
+       margin-left: 470px;
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+        
+       
+    }
+    #button >input{
+        background-color: blueviolet;
+        margin-left: 470px;
+        margin-top: 10px;
+        width: 400px; 
+        height: 50px;
+        border-radius: 50px;
+    }
